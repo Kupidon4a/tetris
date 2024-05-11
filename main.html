@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head> 
+    <meta charset="UTF-8" /> 
+    <link rel="stylesheet" href="style.css">
+    <title>Игра тетрис</title>
+</head>
+<body>
+ 
+  <h1 id = 'h'>Игра Тетрис</h1>
+  <div class="container"> 
+    <div class="left">
+      <canvas width="320" height="640" id="game" ></canvas>
+    </div>
+    <div class="right">
+      
+      <div class="text-top">
+        <p id = 'infoPlayer'>Игрок:</p>
+        <p id = 'infoLevel'>Уровень:</p>
+        <p id = 'infoScore'>Очки:</p>
+        <p class = 'next'>Следующая фигура:</p>
+      </div>
+
+      
+      <canvas width="160" height="160" id = "nextFigure"> </canvas>
+      
+
+      <div class="text-bottom">
+        <p>Клавиши управления:</p>
+        <p>Стрелка вверх - повернуть фигуру</p>
+        <p>Стрелка вправо - сместить фигуру вправо</p>
+        <p>Стрелка вниз - уронить фигуру</p>
+        <p>Стрелка влево - сместить фигуру влево</p>
+      </div>
+    </div>
+  </div>
+  <audio id="fall" src="fall.mp3"></audio>
+  <audio id="nextlevel" src="nextlevel.mp3"></audio>
+  <audio id="disappearance" src="disappearance.mp3"></audio>
+</body>
+<script type="module" src="/main.js"></script>
+</html>

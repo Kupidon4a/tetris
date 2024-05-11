@@ -1,0 +1,64 @@
+html {
+  background-image: url(tetris.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.left {
+    padding-top: 30px;
+    margin: auto;
+}
+
+.right {
+    margin: auto;
+}
+
+.text-top{
+    font-size: 16px;
+    font-weight: 1000;
+}
+
+.text-bottom {
+    font-size: 16px;
+    font-weight: 1000;
+}
+
+
+#h{
+    color: red;
+    text-align: center
+}
+
+#nextFigure{
+    left: 800px;
+    top: -500px;
+    border: 2px solid black;
+  
+}
+
+#game{
+    left: 100px;
+    top: 0px;
+    border: 2px solid black;
+}
+
+.next{
+    left: 800px;
+    top: -500px;
+    font-weight: 1000;
+    font-size: 14px;
+}
+
+.button{
+  left: 800px;
+  top: 380px;
+}

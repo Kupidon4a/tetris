@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    
+    <meta charset="UTF-8" />
+   
+    
+    
+    
+    <title>Вход в игру Тетрис</title>
+    <style>
+        html {
+            background-image: url(tetris.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-attachment: fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+        h1{
+            color: red;
+            text-align: center;
+            font-weight: 1000;
+            margin: auto;
+        }
+        div{
+            font-size: 20px;
+            font-weight: 1000;
+            text-align: center;
+            margin: 300px;
+        }
+    </style>
+
+
+
+  </head>
+  <body>
+    <h1 color = red>Игра Тетрис</h1>
+    <div >
+        <form  id = "formInput">
+        <label>
+        Введите имя игрока:<br>
+        <input placeholder="Имя пользователя" id = "nameUser" name = "name" minlength="4"><br>
+        </label>
+        <input type="submit" value="Ввод">
+        </form>
+    </div>
+    
+    
+    
+    <audio loop id="start" src="start.mp3"></audio>
+  </body>
+  <script type="module" src="/index.js"></script>
+</html>
